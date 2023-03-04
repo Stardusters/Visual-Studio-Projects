@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:ViewModels="clr-namespace:XamarinForm.ViewModels"
+             xmlns:Model ="clr-namespace:XamarinForm.Models"
+             x:Class="XamarinForm.Views.NameListPage"
+             x:DataType="ViewModels:NameListViewModel">
+
+    <ContentPage.BindingContext>
+        <ViewModels:NameListViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Grid HeightRequest="80">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+            <Entry Text="{Binding CurrentString}" Grid.Column="0"
+                   ClearButtonVisibility="WhileEditing" 
+                   FontSize="Medium"/>
+            <Button Text="Submit" Grid.Column="1"
+                    Command="{Binding SubmitButtonClick}" 
+                    FontSize="Medium"
+                    Padding="0,5,0,5"/>
+        </Grid>
+
+        <ListView BackgroundColor="Transparent"
+                  ItemsSource="{Binding CollectionNames}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="Model:ObjNames">
+                    <ViewCell>
+                        <!--<ViewCell.ContextActions>
+                            <MenuItem Clicked="OnDelete"
+                                      CommandParameter=""
+                                      Text="Delete" IsDestructive="True">
+                            </MenuItem>
+                        </ViewCell.ContextActions>-->
+                        <Grid Padding="10">
+                            <Label Text="{Binding FulName}" FontSize="Medium"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="SORT" Command="{Binding SortButtonClick}" FontSize="Medium"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,17 @@
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\bin\Debug\netstandard2.0\XamarinForm.deps.json
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\bin\Debug\netstandard2.0\XamarinForm.dll
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\bin\Debug\netstandard2.0\ref\XamarinForm.dll
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\bin\Debug\netstandard2.0\XamarinForm.pdb
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\XamarinForm.csproj.AssemblyReference.cache
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\XamarinForm.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\XamarinForm.AssemblyInfoInputs.cache
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\XamarinForm.AssemblyInfo.cs
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\XamarinForm.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\XamarinForm.dll
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\ref\XamarinForm.dll
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\XamarinForm.pdb
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\Views\NameListPage.xaml.g.cs
+E:\Visual Studio Projects\XamarinForm\XamarinForm\XamarinForm\obj\Debug\netstandard2.0\Views\CollectionViewPage.xaml.g.cs

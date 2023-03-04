@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:ViewModels="clr-namespace:XamarinForm.ViewModels"
+             xmlns:Model ="clr-namespace:XamarinForm.Models"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             x:Class="XamarinForm.Views.CollectionViewPage"
+             x:DataType="ViewModels:NameListViewModel">
+    <ContentPage.BindingContext>
+        <ViewModels:NameListViewModel/>
+    </ContentPage.BindingContext>
+
+    <RefreshView
+        Command="{Binding RefreshCommand}"
+        IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+        RefreshColor="Red">
+        <CollectionView
+            BackgroundColor="Transparent"
+            ItemSizingStrategy="MeasureAllItems"
+            ItemsLayout="VerticalList"
+            ItemsSource="{Binding CollectionNames}"
+            SelectionMode="Single"
+            VerticalScrollBarVisibility="Always">
+            <CollectionView.EmptyView>
+                <StackLayout Padding="12">
+                    <Label Text="No Names Available" HorizontalOptions="Center"/>
+                </StackLayout>
+            </CollectionView.EmptyView>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="Model:ObjNames">
+                    <SwipeView android:SwipeView.SwipeTransitionMode="Drag">
+                        <SwipeView.RightItems>
+                            <!--<SwipeItems>
+                                <SwipeItem 
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:NameListViewModel}}, Path=DeleteCommand}"
+                                    CommandParameter="{Binding .}" 
+                                    Text="Delete"
+                                    BackgroundColor="Red"/>
+                            </SwipeItems>-->
+                        </SwipeView.RightItems>
+
+                        <Grid Padding="10">
+                            <Frame CornerRadius="20" HasShadow="True">
+                                <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                    <Label
+                                        FontSize="Large"
+                                        Text="{Binding FulName}"
+                                        VerticalOptions="Center"/>
+                                </StackLayout>
+
+                            </Frame>
+                        </Grid>
+
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+            <CollectionView.Header>
+                <StackLayout>
+                    <Grid HeightRequest="80">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="150" />
+                        </Grid.ColumnDefinitions>
+                        <Entry Text="{Binding CurrentString}" Grid.Column="0"
+                               ClearButtonVisibility="WhileEditing" 
+                               FontSize="Medium"/>
+                        <Button Text="Submit" Grid.Column="1" HeightRequest="70"
+                                Command="{Binding SubmitButtonClick}" 
+                                FontSize="Medium"
+                                Padding="5"/>
+                    </Grid>
+                </StackLayout>
+            </CollectionView.Header>
+
+            <CollectionView.Footer>
+                <StackLayout>
+                    <Button Text="Sort" Command="{Binding SortButtonClick}"/>
+                </StackLayout>
+            </CollectionView.Footer>
+
+        </CollectionView>
+    </RefreshView>
+</ContentPage>
