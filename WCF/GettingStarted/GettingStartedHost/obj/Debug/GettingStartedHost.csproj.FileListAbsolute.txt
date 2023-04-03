@@ -1,0 +1,11 @@
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedHost.exe.config
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedHost.exe
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedHost.pdb
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedLib.dll
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedLib.pdb
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedLib.dll.config
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\obj\Debug\GettingStartedHost.csproj.AssemblyReference.cache
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\obj\Debug\GettingStartedHost.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\obj\Debug\GettingStartedHost.csproj.CopyComplete
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\obj\Debug\GettingStartedHost.exe
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedHost\obj\Debug\GettingStartedHost.pdb

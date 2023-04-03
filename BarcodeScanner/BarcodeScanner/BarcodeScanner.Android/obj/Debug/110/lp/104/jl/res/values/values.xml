@@ -1,0 +1,114 @@
+<resources><string name="app_name">DynamsoftBarcodeReader</string><string name="tpl_image_read_rate_first">
+        {
+            \"ImageParameter\": {
+                \"BarcodeFormatIds\": [\"BF_ALL\"],
+                \"BarcodeFormatIds_2\": null,
+                \"DeblurLevel\": 9,
+                \"ExpectedBarcodesCount\": 512,
+                \"LocalizationModes\": [{
+                    \"Mode\": \"LM_CONNECTED_BLOCKS\"
+                }, {
+                    \"Mode\": \"LM_LINES\"
+                }, {
+                    \"Mode\": \"LM_STATISTICS\"
+                }],
+                \"GrayscaleTransformationModes\": [{
+                    \"Mode\": \"GTM_ORIGINAL\"
+                }, {
+                    \"Mode\": \"GTM_INVERTED\"
+                }],
+                \"Name\": \"image-read-rate-first\",
+                \"ScaleDownThreshold\": 10000,
+                \"Timeout\": 10000
+            },
+            \"Version\": \"3.0\"
+        }
+    </string><string name="tpl_image_speed_first">
+        {
+            \"ImageParameter\": {
+                \"BarcodeFormatIds\": [\"BF_ALL\"],
+                \"BarcodeFormatIds_2\": null,
+                \"DeblurLevel\" : 3,
+                \"ExpectedBarcodesCount\": 0,
+                \"LocalizationModes\" : [{
+                    \"Mode\": \"LM_SCAN_DIRECTLY\",
+                    \"ScanDirection\": 1
+                }, {
+                    \"Mode\" : \"LM_CONNECTED_BLOCKS\"
+                 }],
+                \"Name\": \"image-speed-first\",
+                \"ScaleDownThreshold\": 2300,
+                \"Timeout\": 10000
+            },
+            \"Version\": \"3.0\"
+        }
+    </string><string name="tpl_video_read_rate_first">
+        {
+            \"ImageParameter\": {
+                \"BarcodeFormatIds\": [\"BF_ALL\"],
+                \"BarcodeFormatIds_2\": null,
+                \"DeblurLevel\": 5,
+                \"ExpectedBarcodesCount\": 512,
+                \"LocalizationModes\": [{
+                    \"Mode\": \"LM_CONNECTED_BLOCKS\"
+                }, {
+                    \"Mode\": \"LM_LINES\"
+                }, {
+                    \"Mode\": \"LM_STATISTICS\"
+                }],
+                \"GrayscaleTransformationModes\": [{
+                    \"Mode\": \"GTM_ORIGINAL\"
+                }, {
+                    \"Mode\": \"GTM_INVERTED\"
+                }],
+                \"Name\": \"video-read-rate-first\",
+                \"ScaleDownThreshold\": 2300,
+                \"Timeout\": 5000
+            },
+            \"Version\": \"3.0\"
+        }
+    </string><string name="tpl_video_single_barcode">
+        {
+            \"ImageParameter\": {
+                \"BarcodeFormatIds\": [\"BF_ALL\"],
+                \"BarcodeFormatIds_2\": null,
+                \"BinarizationModes\": [{
+                    \"BlockSizeX\": 71,
+                    \"BlockSizeY\": 71,
+                    \"EnableFillBinaryVacancy\": 0,
+                    \"Mode\": \"BM_LOCAL_BLOCK\"
+                    }],
+                \"DeblurLevel\": 0,
+                \"ExpectedBarcodesCount\": 1,
+                \"LocalizationModes\": [{
+                    \"Mode\": \"LM_SCAN_DIRECTLY\",
+                    \"ScanDirection\": 1
+                }, {
+                    \"Mode\": \"LM_CONNECTED_BLOCKS\"
+                }],
+                \"Name\": \"video-single-barcode\",
+                \"ScaleDownThreshold\": 2300,
+                \"Timeout\": 500
+            },
+            \"Version\": \"3.0\"
+        }
+    </string><string name="tpl_video_speed_first">
+        {
+            \"ImageParameter\": {
+                \"BarcodeFormatIds\": [\"BF_ALL\"],
+                \"BarcodeFormatIds_2\": null,
+                \"DeblurLevel\": 0,
+                \"ExpectedBarcodesCount\": 0,
+                \"LocalizationModes\": [{
+                    \"Mode\": \"LM_SCAN_DIRECTLY\",
+                    \"ScanDirection\": 1
+                }, {
+                    \"Mode\": \"LM_CONNECTED_BLOCKS\"
+                }],
+                \"Name\": \"video-speed-first\",
+                \"ScaleDownThreshold\": 2300,
+                \"Timeout\": 500
+            },
+            \"Version\": \"3.0\"
+        }
+    </string></resources>

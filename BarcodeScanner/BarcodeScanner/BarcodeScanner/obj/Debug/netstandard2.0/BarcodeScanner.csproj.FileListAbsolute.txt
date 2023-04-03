@@ -1,0 +1,16 @@
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\bin\Debug\netstandard2.0\BarcodeScanner.deps.json
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\bin\Debug\netstandard2.0\BarcodeScanner.dll
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\bin\Debug\netstandard2.0\ref\BarcodeScanner.dll
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\bin\Debug\netstandard2.0\BarcodeScanner.pdb
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\BarcodeScanner.csproj.AssemblyReference.cache
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\BarcodeScanner.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\BarcodeScanner.AssemblyInfoInputs.cache
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\BarcodeScanner.AssemblyInfo.cs
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\BarcodeScanner.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\BarcodeScanner.dll
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\ref\BarcodeScanner.dll
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\BarcodeScanner.pdb
+E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner\obj\Debug\netstandard2.0\Views\ScanningPage.xaml.g.cs

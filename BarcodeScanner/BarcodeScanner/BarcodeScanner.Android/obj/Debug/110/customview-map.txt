@@ -1,0 +1,68 @@
+@string/appbar_scrolling_view_behavior;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
+alpha;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+alpha;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+androidx.appcompat.widget.Toolbar;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+attr;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\values\values.xml
+attr;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+background;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
+background;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
+cache-path;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\values\values.xml
+color;obj\Debug\110\res\values\colors.xml
+com.dynamsoft.dce.AutoFitTextureView;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\layout\camera_view.xml
+com.dynamsoft.dce.BoxView;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\layout\camera_view.xml
+com.dynamsoft.dce.CanvasView;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\layout\camera_view.xml
+com.dynamsoft.dce.CustomizedBtnView;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\layout\camera_view.xml
+com.google.android.material.appbar.AppBarLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\tabbar.xml
+declare-styleable;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\values\values.xml
+declare-styleable;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+dimen;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\values\values.xml
+external-cache-path;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
+foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\layout\camera_view.xml
+FrameLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\layout\layout_box_view.xml
+FrameLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+item;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+LinearLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\layout\layout_box_view.xml
+LinearLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+merge;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\layout\layout_box_view.xml
+paths;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\104\jl\res\values\values.xml
+resources;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\values\values.xml
+resources;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\106\jl\res\values\strings.xml
+resources;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+resources;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
+resources;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+resources;obj\Debug\110\res\values\colors.xml
+resources;obj\Debug\110\res\values\styles.xml
+set;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+set;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
+set;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+set;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\exittoright.xml
+string;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\104\jl\res\values\values.xml
+string;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\105\jl\res\values\values.xml
+string;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\106\jl\res\values\strings.xml
+string;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
+style;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+style;obj\Debug\110\res\values\styles.xml
+translate;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+translate;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
+translate;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+translate;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;E:\Visual Studio Projects\BarcodeScanner\BarcodeScanner\BarcodeScanner.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml

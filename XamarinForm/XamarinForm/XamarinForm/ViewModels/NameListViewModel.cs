@@ -104,7 +104,6 @@ namespace XamarinForm.ViewModels
             if (!_inputedString.Contains(" "))
             {
                 CollectionNames.Add(new ObjNames { SurName = _inputedString});
-                //LstNames.Add(new ObjNames { SurName = inputedString });
                 return;
             }
 
@@ -124,7 +123,6 @@ namespace XamarinForm.ViewModels
             }
 
             CollectionNames.Add(_inputNameObj);
-            //LstNames.Add(_inputNameObj);
             CurrentString = string.Empty;
         }
 

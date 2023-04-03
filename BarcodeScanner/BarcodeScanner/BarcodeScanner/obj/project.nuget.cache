@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jbOfsxxuN2zd3YUTByHPNXY+B467yLlBTCWgXq07TeHlhDeIXsG9/83c/jC4T4fKz7xHHTFU2VudhmS56hQ0iw==",
+  "success": true,
+  "projectFilePath": "E:\\Visual Studio Projects\\BarcodeScanner\\BarcodeScanner\\BarcodeScanner\\BarcodeScanner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xuyan\\.nuget\\packages\\dynamsoft.capturevision.xamarin.forms\\1.0.3\\dynamsoft.capturevision.xamarin.forms.1.0.3.nupkg.sha512",
+    "C:\\Users\\xuyan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\xuyan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\xuyan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\xuyan\\.nuget\\packages\\xamarin.forms\\5.0.0.2478\\xamarin.forms.5.0.0.2478.nupkg.sha512"
+  ],
+  "logs": []
+}

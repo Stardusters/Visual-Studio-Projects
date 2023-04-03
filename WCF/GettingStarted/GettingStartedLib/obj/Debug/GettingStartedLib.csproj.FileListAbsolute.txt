@@ -1,0 +1,7 @@
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedLib\bin\Debug\GettingStartedLib.dll.config
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedLib\bin\Debug\GettingStartedLib.dll
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedLib\bin\Debug\GettingStartedLib.pdb
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedLib\obj\Debug\GettingStartedLib.csproj.AssemblyReference.cache
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedLib\obj\Debug\GettingStartedLib.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedLib\obj\Debug\GettingStartedLib.dll
+E:\Visual Studio Projects\WCF\GettingStarted\GettingStartedLib\obj\Debug\GettingStartedLib.pdb

@@ -66,10 +66,10 @@
                         <Entry Text="{Binding CurrentString}" Grid.Column="0"
                                ClearButtonVisibility="WhileEditing" 
                                FontSize="Medium"/>
-                        <Button Text="Submit" Grid.Column="1" HeightRequest="70"
+                        <Button Text="Submit" Grid.Column="1"
                                 Command="{Binding SubmitButtonClick}" 
                                 FontSize="Medium"
-                                Padding="5"/>
+                                Padding="0,5,0,5"/>
                     </Grid>
                 </StackLayout>
             </CollectionView.Header>

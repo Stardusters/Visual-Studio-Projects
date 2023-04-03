@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dynamsoft = "clr-namespace:DCVXamarin;assembly=DCVXamarin"
+             x:Class="BarcodeScanner.Views.ScanningPage">
+    <ContentPage.Content>
+        <Grid x:Name="scannerView" Margin="0">
+
+            <!-- Add DCECameraView. -->
+            <dynamsoft:DCVCameraView OverlayVisible="True"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="FillAndExpand" >
+            </dynamsoft:DCVCameraView>
+
+            <Label x:Name="barcodeResultLabel" Text="No Barcode detected" FontSize="18"
+                 FontAttributes="Bold"
+             TextColor="Blue"
+                 HorizontalOptions="Center"
+             VerticalOptions="Center"></Label>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
