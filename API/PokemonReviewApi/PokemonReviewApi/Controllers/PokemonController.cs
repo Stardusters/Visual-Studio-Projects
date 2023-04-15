@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using PokemonReviewApi.Data;
 using PokemonReviewApi.Dto;
 using PokemonReviewApi.Interfaces;
 using PokemonReviewApi.Models;
-using System.Reflection.Metadata.Ecma335;
 
 namespace PokemonReviewApi.Controllers
 {
@@ -61,6 +59,38 @@ namespace PokemonReviewApi.Controllers
                 return BadRequest(ModelState);
 
             return Ok(rating);
+        }
+
+        [HttpPost]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult CreatePokemon([FromQuery] int ownerId, [FromQuery] int categoryId, [FromBody]PokemonDto pokemonCreate)
+        {
+            if (pokemonCreate == null)
+                return BadRequest(ModelState);
+
+            var pokemons = _pokemonRepository.GetPokemons()
+                .Where(p => p.Name.Trim().ToUpper() == pokemonCreate.Name.Trim().ToUpper())
+                .FirstOrDefault();
+
+            if (pokemons != null)
+            {
+                ModelState.AddModelError("", "Owner already exists");
+                return StatusCode(422, ModelState);
+            }
+
+            if(!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var pokemonMap = _mapper.Map<Pokemon>(pokemonCreate);
+
+            if(!_pokemonRepository.CreatePokemon(ownerId,categoryId,pokemonMap))
+            {
+                ModelState.AddModelError("", "something went wrong while saving ..");
+                return StatusCode(500, ModelState);
+            }
+
+            return Ok("Sucessful Created");
         }
     }
 }

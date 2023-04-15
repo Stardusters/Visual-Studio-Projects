@@ -87,3 +87,10 @@ E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0
 E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\AutoMapper.dll
 E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\System.Web.Mvc.dll
+E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\System.Web.Razor.dll
+E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\System.Web.Helpers.dll
+E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\System.Web.WebPages.dll
+E:\Visual Studio Projects\API\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll

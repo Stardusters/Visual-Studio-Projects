@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PokemonReviewApi.Repository;
 using PokemonReviewApi.Interfaces;
 using AutoMapper;
 using PokemonReviewApi.Dto;
 using PokemonReviewApi.Models;
-using Microsoft.Identity.Client;
+using PokemonReviewApi.Repository;
 
 namespace PokemonReviewApi.Controllers
 {
@@ -59,6 +58,55 @@ namespace PokemonReviewApi.Controllers
             if(!ModelState.IsValid)
                 return BadRequest(ModelState);
             return Ok(pokemons);
+        }
+
+        [HttpPut("{categoryId}")]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public IActionResult UpdateCategory(int categoryId, [FromBody]CategoryDto updatedCategory)
+        {
+            if(updatedCategory == null)
+                return BadRequest(ModelState);
+
+            if(categoryId != updatedCategory.Id)
+                return BadRequest(ModelState);
+
+            if (!_categoryRepository.CategoriesExists(categoryId))
+                return NotFound();
+
+            if(!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var categoryMap = _mapper.Map<Category>(updatedCategory);
+
+            if (!_categoryRepository.UpdateCategory(categoryMap))
+            {
+                ModelState.AddModelError("", "Something went wrong updating category");
+                return StatusCode(500, ModelState);
+            }
+
+            return NoContent();
+        }
+
+        [HttpDelete("{categoryId}")]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteCategory(int categoryId)
+        {
+            if (!_categoryRepository.CategoriesExists(categoryId))
+                return NotFound();
+
+            var categoryToDelete = _categoryRepository.GetCategory(categoryId);
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            if (!_categoryRepository.DeleteCategory(categoryToDelete))
+                ModelState.AddModelError("", "Something went wrong deleting category");
+
+            return NoContent();
         }
     }
 }
