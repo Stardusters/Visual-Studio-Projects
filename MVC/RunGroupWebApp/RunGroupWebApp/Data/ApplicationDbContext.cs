@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using RunGroupWebApp.Models;
 
 namespace RunGroupWebApp.Data
 {
     //Using Entity Framework create database Step 1: installing Entity Framework
     //Using Entity Framework create database Step 2: create Dbcontext. next step see "Program.cs"
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<AppUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base (options)
         {

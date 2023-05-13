@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RunGroupWebApp.Data;
 using RunGroupWebApp.Helpers;
 using RunGroupWebApp.Interfaces;
+using RunGroupWebApp.Models;
 using RunGroupWebApp.Repository;
 using RunGroupWebApp.Sevices;
 
@@ -12,6 +15,7 @@ builder.Services.AddControllersWithViews();
 //Add Interface and Repository
 builder.Services.AddScoped<IClubRepository,ClubRepository>();
 builder.Services.AddScoped<IRaceRepository,RaceRepository>();
+builder.Services.AddScoped<IDashboardRepository,DashboardRepository>();
 //Add Cloudinary Sevice
 builder.Services.AddScoped<IPhoteService, PhotoService>();
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
@@ -20,15 +24,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-
+builder.Services.AddIdentity<AppUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddMemoryCache();
+builder.Services.AddSession(); //Cookie authentications
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();  
 var app = builder.Build();
 
 //Using Entity Framework create database Step 7: Run seeddata
 //Using Entity Framework create database Step 8: In developer Powershell, use command "dotnet run seeddata"
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
 {
-    //Seed.SeedUsersAndRolesAsync(app);
-    Seed.SeedData(app);
+    await Seed.SeedUsersAndRolesAsync(app);
+    //Seed.SeedData(app);
 }
 
 // Configure the HTTP request pipeline.
@@ -43,7 +50,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

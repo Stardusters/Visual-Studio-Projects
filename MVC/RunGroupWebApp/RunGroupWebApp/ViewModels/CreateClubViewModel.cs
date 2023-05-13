@@ -1,7 +1,7 @@
 ﻿using RunGroupWebApp.Data.Enum;
 using RunGroupWebApp.Models;
 
-namespace RunGroupWebApp.ViewModel
+namespace RunGroupWebApp.ViewModels
 {
     public class CreateClubViewModel
     {
@@ -11,5 +11,6 @@ namespace RunGroupWebApp.ViewModel
         public Address Address { get; set; }    
         public IFormFile Image { get; set; }
         public ClubCategory ClubCategory { get; set; }
+        public string AppUserId { get;set; }
     }
 }
